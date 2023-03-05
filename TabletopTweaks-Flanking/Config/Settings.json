@@ -1,0 +1,24 @@
+{
+  "NewSettingsOffByDefault": false,
+  "AddedFeats": {
+    "DisableAll": false,
+    "Settings": {
+      "ImprovedOutflank": {
+        "Enabled": true,
+        "Homebrew": false,
+        "Description": "Whenever you and an ally who also has this feat are threatening the same foe, you are considered to be flanking if you are at least perpendicular with your ally."
+      },
+      "GangUp": {
+        "Enabled": true,
+        "Homebrew": false,
+        "Description": "You are considered to be flanking an opponent if at least two of your allies are threatening that opponent, regardless of your actual positioning."
+      },
+      "PackFlanking": {
+        "Enabled": true,
+        "Homebrew": false,
+        "Description": "When you and your companion creature have this feat, and you both threaten the same opponent, you are both considered to be flanking that opponent regardless of your actual positioning."
+      }
+    },
+    "IsExpanded": true
+  }
+}

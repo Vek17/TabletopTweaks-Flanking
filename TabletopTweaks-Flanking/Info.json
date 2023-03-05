@@ -1,0 +1,14 @@
+﻿{
+  "AssemblyName": "TabletopTweaks-Flanking.dll",
+  "Author": "Sean Petrie",
+  "DisplayName": "Tabletop Tweaks Flanking",
+  "EntryMethod": "TabletopTweaks.Flanking.Main.Load",
+  "GameVersion": "2.1.0",
+  "HomePage": "https://github.com/Vek17/TabletopTweaks-Flanking/releases",
+  "Id": "TabletopTweaks-Flanking",
+  "ManagerVersion": "0.23.0",
+  "Repository": "https://raw.githubusercontent.com/Vek17/TabletopTweaks-Flanking/master/Repository.json",
+  "Requirements": [ "TabletopTweaks-Core" ],
+  "LoadAfter": [ "TabletopTweaks-Core" ],
+  "Version": "0.1.0"
+}
