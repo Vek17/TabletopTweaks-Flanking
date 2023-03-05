@@ -24,6 +24,9 @@ namespace TabletopTweaks.Flanking.MechanicsChanges {
             if (!ApplyToEnemies && !initiator.IsPlayerFaction) {
                 return combatState.EngagedBy.Count > 1;
             }
+            if (TTTContext.Settings.GiveEnemiesGangUp && !initiator.IsPlayerFaction) {
+                return combatState.EngagedBy.Count > 2;
+            }
             if (initiator.CustomMechanicsFeature(UnitPartCustomMechanicsFeatures.CustomMechanicsFeature.GangUp)) {
                 var GangUp = combatState.EngagedBy.Count > 2;
                 if (GangUp) { return true; }

@@ -1,4 +1,10 @@
 {
+
+  "DisableAllFlankingMechanics": false,
+  "ApplyFlankingRulesToEnemies": true,
+  "GiveEnemiesGangUp": true,
+  "FlankingAngle": 130,
+  "FlankingAngleImproved": 80,
   "NewSettingsOffByDefault": false,
   "AddedFeats": {
     "DisableAll": false,

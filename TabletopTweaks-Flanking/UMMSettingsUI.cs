@@ -21,7 +21,8 @@ namespace TabletopTweaks.Flanking {
             UI.Div(0, 15);
             using (UI.VerticalScope()) {
                 UI.Toggle("Disable All Flanking Mechanics".bold(), ref Settings.DisableAllFlankingMechanics);
-                UI.Toggle("Apply New Flanking to Enemies".bold(), ref Settings.ApplyFlankingRulesToEnemies);
+                UI.Toggle("Give Enemies Gang Up (Flanking when 2 or more allies are threatening regardless of positioning)".bold(), ref Settings.GiveEnemiesGangUp);
+                UI.Toggle("Apply New Flanking rules to Enemies".bold(), ref Settings.ApplyFlankingRulesToEnemies);
                 UI.Label("Flanking Angle".green().bold());
                 UI.Slider(ref Settings.FlankingAngle, 0, 180, FlankingSettings.FlankingAngleDefault);
                 UI.Label("Improved Outflank Flanking Angle".green().bold());
