@@ -12,7 +12,7 @@ namespace TabletopTweaks.Flanking.NewContent.Feats.TeamworkFeats {
     internal class PackFlanking {
         public static void AddPackFlanking() {
             var CombatExpertiseFeature = BlueprintTools.GetBlueprint<BlueprintFeature>("4c44724ffa8844f4d9bedb5bb27d144a");
-            var Icon = CombatExpertiseFeature.Icon;
+            var Icon_PackFlanking = AssetLoader.LoadInternal(TTTContext, folder: "Feats", file: "Icon_PackFlanking.png");
 
             var PackFlanking = Helpers.CreateBlueprint<BlueprintFeature>(TTTContext, "PackFlanking", bp => {
                 bp.SetName(TTTContext, "Pack Flanking");
@@ -21,7 +21,7 @@ namespace TabletopTweaks.Flanking.NewContent.Feats.TeamworkFeats {
                     "and you both threaten the same opponent, you are both considered to be flanking that opponent, " +
                     "regardless of your actual positioning.\n" +
                     "Normal: You must be positioned opposite an ally to flank an opponent.");
-                bp.m_Icon = Icon;
+                bp.m_Icon = Icon_PackFlanking;
                 bp.Ranks = 1;
                 bp.IsClassFeature = true;
                 bp.Groups = new FeatureGroup[] { FeatureGroup.Feat, FeatureGroup.TeamworkFeat, FeatureGroup.CombatFeat };

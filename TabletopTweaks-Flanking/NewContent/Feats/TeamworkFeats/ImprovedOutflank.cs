@@ -12,7 +12,7 @@ namespace TabletopTweaks.Flanking.NewContent.Feats.TeamworkFeats {
     internal class ImprovedOutflank {
         public static void AddImprovedOutflank() {
             var Outflank = BlueprintTools.GetBlueprint<BlueprintFeature>("422dab7309e1ad343935f33a4d6e9f11");
-            var Icon = Outflank.Icon;
+            var Icon_ImprovedOutflank = AssetLoader.LoadInternal(TTTContext, folder: "Feats", file: "Icon_ImprovedOutflank.png");
 
             var ImprovedOutflank = Helpers.CreateBlueprint<BlueprintFeature>(TTTContext, "ImprovedOutflank", bp => {
                 bp.SetName(TTTContext, "Improved Outflank");
@@ -20,7 +20,7 @@ namespace TabletopTweaks.Flanking.NewContent.Feats.TeamworkFeats {
                     "Benefit: Whenever you and an ally who also has this feat are threatening the same foe, " +
                     "you are considered to be flanking if you are at least perpendicular with your ally.\n" +
                     "Normal: You must be positioned opposite an ally to flank an opponent.");
-                bp.m_Icon = Icon;
+                bp.m_Icon = Icon_ImprovedOutflank;
                 bp.Ranks = 1;
                 bp.IsClassFeature = true;
                 bp.Groups = new FeatureGroup[] { FeatureGroup.Feat, FeatureGroup.TeamworkFeat, FeatureGroup.CombatFeat };
