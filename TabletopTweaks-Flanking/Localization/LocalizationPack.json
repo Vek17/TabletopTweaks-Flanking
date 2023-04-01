@@ -8,7 +8,7 @@
       "ruRU": null,
       "deDE": null,
       "frFR": null,
-      "zhCN": null,
+      "zhCN": "",
       "esES": null
     },
     {
@@ -19,7 +19,7 @@
       "ruRU": null,
       "deDE": null,
       "frFR": null,
-      "zhCN": null,
+      "zhCN": "近战攻击时，如果有盟军在攻击目标的另一侧造成威胁，攻击方获得+2夹击加值",
       "esES": null
     },
     {
@@ -30,7 +30,7 @@
       "ruRU": null,
       "deDE": null,
       "frFR": null,
-      "zhCN": null,
+      "zhCN": "战术（精通包抄）",
       "esES": null
     },
     {
@@ -41,7 +41,7 @@
       "ruRU": null,
       "deDE": null,
       "frFR": null,
-      "zhCN": null,
+      "zhCN": "战术（兽群围猎）",
       "esES": null
     },
     {
@@ -52,7 +52,7 @@
       "ruRU": null,
       "deDE": null,
       "frFR": null,
-      "zhCN": null,
+      "zhCN": "你善于使用数量优势压倒敌人。\n效果：如果有2个以上其他盟友在威胁你的攻击目标，你被视为正在夹击目标，而无视你们的实际站位角度\n通常：你必须处于和盟友正对角才能形成夹击。",
       "esES": null
     },
     {
@@ -63,7 +63,7 @@
       "ruRU": null,
       "deDE": null,
       "frFR": null,
-      "zhCN": null,
+      "zhCN": "一拥而上",
       "esES": null
     },
     {
@@ -74,7 +74,7 @@
       "ruRU": null,
       "deDE": null,
       "frFR": null,
-      "zhCN": null,
+      "zhCN": "近战攻击时，如果有盟军在攻击目标的另一侧造成威胁，攻击方获得+2夹击加值",
       "esES": null
     },
     {
@@ -85,7 +85,7 @@
       "ruRU": null,
       "deDE": null,
       "frFR": null,
-      "zhCN": null,
+      "zhCN": "夹击",
       "esES": null
     },
     {
@@ -96,7 +96,7 @@
       "ruRU": null,
       "deDE": null,
       "frFR": null,
-      "zhCN": null,
+      "zhCN": "你能轻而易举地找到敌人防御的薄弱之处。\n效果：当你和一名同样拥有这个专长的盟友威胁同一个敌人时，只要你们之间拥有至少90度夹角即可被视为形成夹击。\n通常：你必须处于和盟友正对角才能形成夹击。",
       "esES": null
     },
     {
@@ -107,7 +107,7 @@
       "ruRU": null,
       "deDE": null,
       "frFR": null,
-      "zhCN": null,
+      "zhCN": "精通包抄",
       "esES": null
     },
     {
@@ -118,7 +118,7 @@
       "ruRU": null,
       "deDE": null,
       "frFR": null,
-      "zhCN": null,
+      "zhCN": "你和你的动物伙伴练习过如何围杀猎物。\n效果：当你和拥有此专长的动物伙伴同时威胁一个目标时，你们即都视为夹击目标，不管实际位置如何。\n通常：你必须处于和盟友正对角才能形成夹击。",
       "esES": null
     },
     {
@@ -129,7 +129,7 @@
       "ruRU": null,
       "deDE": null,
       "frFR": null,
-      "zhCN": null,
+      "zhCN": "兽群围猎",
       "esES": null
     },
     {
@@ -140,7 +140,7 @@
       "ruRU": null,
       "deDE": null,
       "frFR": null,
-      "zhCN": null,
+      "zhCN": "战术 - ",
       "esES": null
     }
   ]
