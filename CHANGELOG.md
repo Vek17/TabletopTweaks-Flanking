@@ -1,3 +1,6 @@
+## Version 0.1.0a
+* Chinese localization added.
+
 ## Version 0.1.0
 * Initial Version
 * Implemented configurable flanking based on PnP Rules
