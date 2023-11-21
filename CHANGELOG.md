@@ -1,3 +1,6 @@
+## Version 0.2.0
+* Patch for 2.2.0as
+
 ## Version 0.1.0a
 * Chinese localization added.
 
