@@ -1,3 +1,6 @@
+## Version 0.2.1
+* Support for 2.3.0
+
 ## Version 0.2.0
 * Patch for 2.2.0as
 
